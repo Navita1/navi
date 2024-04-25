@@ -1,1 +1,295 @@
-jdncndmnxdnsxn
+GIT: git init
+
+git clone url
+
+git add . 
+
+to update repository on git:
+1) git add.
+2) git commit -m "message"
+3)git push
+
+commands for branching:
+
+on git website create a new repository
+
+git branch
+
+git branch <new branch name>
+
+git checkout <branch name> to switch to the branch
+
+to push branch to repo:
+git push origin <branchname>
+git status
+git add .
+git commit -m "added"
+git push origin <branch name>
+
+git merge
+git checkout <branchname>.   - switch branch
+git merge branchname
+git push origin main
+
+
+
+
+deploying app using docker on aws directly:
+
+sudo apt install
+sudo apt install docker
+sudo apt  install docker.io
+git clone url
+ls
+cd tflstore
+sudo docker build -t tflimage .
+sudo docker run -d -p 8000:8000 tflimage
+
+Putty:
+put a public ip from instance to Hostname
+
+go in data and put username ubuntu
+
+go in ssh->authentication->credentials=browse private key
+
+putty will open up
+
+
+
+
+Bash 
+
+Triangle astrick pattern 
+
+ for triangle pattern:"
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((j=1;j<=i;j++))
+
+do
+echo -n "*"
+
+done
+
+echo " "
+
+done
+
+
+
+Upside down triangle pattern:
+
+#!/bin/bash
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((k=1;k<i;k++))
+
+do
+
+echo -n " "
+
+done
+
+for((j=1;j<=num-i+1;j++))
+
+do
+
+echo -n "* "
+
+done
+
+echo " "
+
+done
+
+
+
+
+————————————————————————
+
+echo "Enter the no of lines for patter:"
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((j=1;j<=num-i+1;j++))
+
+do
+
+echo -n "*"
+
+done
+
+echo " "
+
+done
+
+——————————————————————————
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((k=1;k<i;k++))
+
+do
+
+echo -n " "
+
+done
+
+for((j=1;j<=num-i+1;j++))
+
+do
+
+echo -n "*"
+
+done
+
+echo " "
+
+done
+
+_____________________________________________ read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((k=1;k<=num-i;k++))
+
+do
+
+echo -n " "
+done
+
+for((j=1;j<=i;j++))
+
+do
+
+echo -n "* "
+done
+
+echo " "
+
+done
+
+___________________________________________
+pattern6
+
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((k=1;k<=num-i;k++))
+
+do
+
+echo -n " "
+done
+
+for((j=1;j<=i;j++))
+
+do
+
+echo -n "* "
+done
+
+echo " "
+
+done
+
+
+
+
+pattern7
+
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((j=1;j<=i;j++))
+
+do
+
+echo -n "$i"
+
+done
+
+echo " "
+
+done
+
+
+
+
+pattern8
+
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((j=1;j<=i;j++))
+
+do
+
+echo -n "$j"
+
+done
+
+echo " "
+
+done
+
+
+
+
+pattern9
+
+read num
+
+for((i=1;i<=num;i++))
+
+do
+
+for((k=1;k<=num-i;k++))
+
+do
+
+echo -n " "
+
+done
+
+for((j=1;j<=2\*i-1;j++))
+
+do
+
+echo -n "*"
+
+done
+
+echo " "
+
+done
+
+
+
+
+
